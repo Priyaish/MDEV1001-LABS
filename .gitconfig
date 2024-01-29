@@ -1,0 +1,10 @@
+[user]
+	name = Priyaish
+	email = 156014273+Priyaish@users.noreply.github.com
+[safe]
+	directory = D:/Seneca Study/Semester 6/CSN500/Azure Work/GitHub/CSN400-Capstone
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
